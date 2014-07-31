@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	a#random(href='#') Get Random Numbers
+	ul#numbers
+
+	form.form 
+		input.info(type="text", name='textbox', placeholder='Enter numebers here')
+		button.submit(type='submit' name='submit') Add to Server
+		ul#data
+
+block scripts
